@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(178, 228, 178);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(93, 223, 93) ;
+    text-align: center;
+}
+h1#principal{
+    color: black;
+    text-align: center;
+}
+h2{
+    color:rgb(58, 134, 58) ;
+    text-align: center;
+}
+.basico{
+    color: white;
+}
+p{
+    color: red;
+    text-align: justify;
+}

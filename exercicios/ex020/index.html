@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo Classes</title>
+    <style>
+        body{background-image: linear-gradient(to right, #D9D9D9, #595959);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;}
+        a{font-weight: bold;
+            text-decoration: none;
+            color: red;}
+        a:visited{color: darkred;}
+        a:hover{text-decoration: underline;}
+        .especial:hover{color: white;
+            background-color: black;
+            text-decoration: none;}
+        .especial::before{content: '>>';
+            font-weight: lighter;}
+        .especial::after{content: '<<'; font-weight: lighter;}
+</style>
+</head>
+<body>
+    <h1>Personnalizando um Link</h1>
+    <p>Para aprender HTML5 e CSS3, acesse o <a href="https://gustavoguanabara.github.io" target="_blank" rel="external" class="especial"> GitHub do Guanabara</a></p>
+    <p>Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3c.br" target="_blank" rel="external" class="especial"> Escritório do W3C no Brasil</a></p>
+    <p>Para acompnhar os cursos, acesse o <a href="https://www.youtube.com/cursoemvideo" target="_blank" rel="external" class="especial">canal do Curso em Video</a></p>
+
+</body>
+</html>
